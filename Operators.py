@@ -29,7 +29,7 @@ print(not b)'''
 #Assignment operators
 a = 10
 b = 5
-'''a+=b
+a+=b
 print(a)
 a-=b
 print(a)
@@ -38,8 +38,8 @@ print(a)
 a/=b
 print(a)
 a//=b
-print(a)'''
+print(a)
 a%=b
 print(a)
-#b**=3
-#print(b)
+b**=3
+print(b)
