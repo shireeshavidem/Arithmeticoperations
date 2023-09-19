@@ -29,7 +29,7 @@ print('Data types')
 # print(len(name_1))
 
 #indexing
-name_2 = 'videm shireesha'
+#name_2 = 'videm shireesha'
 # print(name_2[6])
 
 #finding sub sting in a main string is called slicing
@@ -42,7 +42,7 @@ name_2 = 'videm shireesha'
 #print(name_2.index("s"))
 #print(name_2.rindex("i"))
 #count("x")
-print(name_2.count("s"))
+#print(name_2.count("s"))
 
 #slicing
 # print(name_2[1:8])
@@ -54,6 +54,7 @@ print(name_2.count("s"))
 # sub_string = "good"
 # v1 = v.replace("bad",sub_string)
 # print(v1)
+#print(s.replace("want","don't want"))
 
 #splitting
 # s = "learning@python@is@not@easy"
@@ -74,6 +75,7 @@ print(name_2.count("s"))
 # s = "-".join(family)
 # print(s)
 # print(len(family))
+#print("-".join(family))
 
 #lst = [] #empty list
 #print(type(lst))
@@ -94,9 +96,10 @@ print(name_2.count("s"))
  
 
 #replacing marks in list
-#marks = ['20','45','67','55','89']
+marks = ['20','45','67','55','89']
 # marks[0] = '58'
 # print(marks)
+print(marks.replace([0],'58'))
 
 # surname = "videm"
 # name = "shireesha"
@@ -160,12 +163,12 @@ print(name_2.count("s"))
 # print(bool(b))
 
 #5.set is a unordered list
-colors = {'red','green','white','blue','black'}
-print(type(colors))
-print(colors)
+# colors = {'red','green','white','blue','black'}
+# print(type(colors))
+# print(colors)
 # add is used to add only 1 item
-colors.add("orange")
-print(colors)
+# colors.add("orange")
+# print(colors)
 # update is used to add a list of items(multiple)
-colors.update(['yellow','brown','sea green'])
-print(colors)
+# colors.update(['yellow','brown','sea green'])
+# print(colors)
