@@ -36,7 +36,7 @@
 marks = ['20','45','67','55','89']
 # marks[0] = '58'
 # print(marks)
-print(marks.replace([0],'58'))
+# print(marks.update('20','58'))
 
 # surname = "videm"
 # name = "shireesha"
@@ -58,3 +58,10 @@ print(marks.replace([0],'58'))
 # family.remove("aishu") #it will remove the item in the list
 # print(family)
 # print(family.pop(0)) #it will display the item given in the index
+
+list = []
+n = int(input("enter no of elements: "))
+for i in range(0,n):
+    lst1 = input("enter your elements: ")
+    list.append(lst1)
+print(list)   
